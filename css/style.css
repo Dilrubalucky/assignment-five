@@ -1,0 +1,294 @@
+*{margin:0px;
+ padding:0px;
+}
+.container{
+           width:1140px;
+           margin:0 auto;
+           overflow: hidden;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+header{
+    background-color:#f6f9f9;
+    padding:30px 0px;
+    width:100%;
+    overflow: hidden;
+}
+
+section{
+    overflow: hidden;
+}
+.banner{
+    background: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner-content{
+    width:60%;
+    margin:0 auto;
+    padding-top:210px;
+    padding-bottom:75px;
+    text-align:center;
+
+}
+.banner-content h2{
+    font-size:120px;
+    color:#fff;
+    font-weight:bold;
+
+}
+.banner-content span{
+    border-bottom: 2px solid #15a4fa;
+    display:block;
+    width:80%;
+    margin:10px auto;
+
+}
+.banner-content p{
+    font-size:20px;
+    color:#fff;
+    font-weight:300
+
+}
+.call-btn{
+    background:transparent;
+    border:1px solid #15a4fa;
+    color:#fff;
+    padding:8px 24px;
+    margin:60px 0px;
+}
+.icon{
+    margin-top:90px;
+    color:#fff;
+}
+.design{
+    width: 100%;
+    background-color: #f6f9f9;
+
+}
+.design-content{
+    width:100%;
+    text-align:center;
+    padding-top:50px;
+    padding-bottom:50px;
+
+}
+.design-content h2{
+    font-size:20px;
+    color:#aeafaf;
+    font-weight: bold;
+
+}
+.design-content p{
+    font-size:10px;
+    color:#aeafaf;
+    font-weight:bold;
+    line-height:20px;
+    padding-top:15px;
+    
+}
+.feature{
+    width:100%;
+    margin-top:30px;
+    text-align: center;
+}
+.feature-one{
+    width:33.33%;
+    float:left;
+    
+    
+}
+.icon-box{
+    width: 75px;
+    height:75px;
+    margin: 0 auto;
+    background:linear-gradient(90deg,#48baff 50%,#5fc3ff 50%) ;
+    font-size:44px;
+    color:#fff;
+    
+    
+}   
+    /*position:relative;*/
+/*.icon-box::after{
+    content:'';
+    position:absolute;
+    background:#48baff;
+    width:50%;
+    height:100%;
+    top:0;
+    right:0;
+    opacity:0.4;
+}
+*/
+
+.feature-one h3{
+    margin: 20px 0;
+    color: #495367;
+    font-size: 20px;
+
+}
+.feature-one p{
+    margin-bottom:30px;
+    color: #495367;
+    font-size: 15px;
+}
+.showcase{
+    margin-top:30px;
+    text-align: center;
+}
+
+.showcase h1{
+    color:#495367;
+    font-size:30px;
+}
+.showcase p{
+    color:#495367;
+    font-size:20px;
+    text-align:center;
+    margin-bottom:50px;
+}
+.showcase-box{
+    width: 32%;
+    margin-right: 2%;
+    float: left;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+.showcase-box img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+
+}
+.hover{
+    width: 100%;
+    height: 250px;
+    background: #1697e7;
+    position: absolute;
+    top: 0;
+    left: 388px;
+    opacity: 0.6;
+    display: none;
+}
+.hover-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fa-search-plus, .fa-link{
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.fa-search-plus{
+    margin-right: 15px;
+}
+
+.showcase-box:hover .hober{
+    left: 0;
+    display: block;
+}
+
+.xy{
+    margin-right: 0;
+}
+.stay{
+    background-image:url(../img/bg.png);
+    text-align:center;
+
+}
+.stay h2{
+    color:#fff;
+
+}
+.stay p{
+    color:#999999;
+    font-size:15px;
+    margin-bottom:50x;
+
+}
+.stay-form{
+    width:60%;
+    margin:0 auto;
+
+}
+input[type=text],
+textarea {
+    width:100%;
+    background:transparent;
+    color:#999999;
+    border:1px solid #999999;
+    border-radius:5px;
+    padding:20px 10x;
+    margin-bottom:20px;
+    outline:0;
+}
+.check{
+    width: 50%;
+    text-align: left;
+    float: left;
+    color: #9ea4ac;
+    padding-top: 35px;
+
+}
+.check input{
+    border-radius:5px;
+
+}
+.check-span{
+    margin-left: 10px;
+    font-size: 16px;
+    color: #999999;
+
+}
+.submit{
+    padding-top: 20px;
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+
+
+button{
+    font-size: 16px;
+    padding: 20px 52px;
+    border: 1px solid #15a4fa;
+    background: transparent;
+    color: #fff;
+    outline: 0;
+
+}
+footer{
+    padding:15px 0px;
+
+}
+
+.social-icons{
+    padding:10px 0px;
+    float:right;
+
+}
+footer p{
+    padding: 20px 0;
+    float: left;
+    font-size: 15px;
+    color: #acacac;
+
+}
+.fa-facebook, .fa-twitter, .fa-google-plus, .fa-linkedin{
+    font-size: 16px;
+    padding: 15px;
+    background-color: #15a4fa;
+    color: #ffffff;
+    margin-right: 5px;
+
+}
